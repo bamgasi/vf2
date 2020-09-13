@@ -6,8 +6,8 @@ Vue.use(Vuetify, {
   components: {
     VSnackbar,
     VBtn,
-    VIcon
-  }
+    VIcon,
+  },
 })
 
 Vue.use(VuetifyToast, {
@@ -16,9 +16,7 @@ Vue.use(VuetifyToast, {
   color: 'info', // default
   icon: 'mdi-information',
   iconColor: '', // default
-  classes: [
-    'body-2'
-  ],
+  classes: ['body-2'],
   timeout: 3000, // default
   dismissable: true, // default
   multiLine: false, // default
@@ -31,11 +29,10 @@ Vue.use(VuetifyToast, {
   slot: [], // default
   shorts: {
     custom: {
-      color: 'purple'
-    }
+      color: 'purple',
+    },
   },
-  property: '$toast' // default
+  property: '$toast', // default
 })
 
-export default new Vuetify({
-})
+export default new Vuetify({})
